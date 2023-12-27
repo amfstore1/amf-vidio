@@ -5,7 +5,9 @@ const app = express()
 export const endpoint = app.get('/', (req,res) => {
     res.status(200).json({
         status: 200,
-        message: 'Welcome to Profile Game Checker API 👋',
-        documentation: 'https://github.com/ArieAkbarull/proceck-API'
+        message: 'Welcome to Vidio.com API 👋',
+        documentation: 'COMING SOON',
+        donate: 'https://saweria.co/arimaulana',
+        author: '@amfcode_'
     })
 })
